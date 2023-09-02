@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h1 {
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 3rem;
+   
+}
+#searchBar{
+    width: 400px;
+    height: 30px;
+    font-size: 1.2rem;
+
+}
+#submitButton{
+    width: 80px;
+    height: 30px;
+    font-size: 1.2rem;
+}
+#submitButton:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
